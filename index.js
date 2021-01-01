@@ -20,6 +20,7 @@ const client = new Discord.Client();
 const col = require("colors");
 const config = require("./config.json");
 const mongo = require('./mongo');
+const welcome = require('./welcome')
 let prefix = config.prefix;
 
 console.log("Process started, current time: " + new Date().toString());
